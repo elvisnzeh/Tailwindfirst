@@ -3,8 +3,8 @@ import React from 'react'
 function Report() {
   return (
     <div>
-        <div className="flex flex-wrap gap-8 w-10/12 mx-auto grid grid-cols-1 md:grid md:grid-cols-3 p-3 mt-5">
-        <div className="flex-1 min-w-full md:min-w-0">
+        <div className=" grid grid-cols-1  gap-8 w-10/12 mx-auto md:text-start md:grid md:grid-cols-3 p-3 ">
+        <div className="flex-1 min-w-full md:min-w-0 justify-center">
           <h1 className="font-bold">User-Friendly Dashboard</h1>
           <p>
             Perform complex SEO audits and optimization with a single click.

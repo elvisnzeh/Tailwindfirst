@@ -18,13 +18,12 @@ function Home() {
         Search engine optimization intuitive <br />
         and effective for all skill levels. 
       </div>
-
       <div className="p-4 mt-2 text-center mx-auto font-light text-lg">
-        <img
-          className="border-none rounded-2xl p-1 w-10/12 h-auto mx-auto"
-          src={img6}
-          alt="Image 5"
-        />
+  <img
+    className="border-none rounded-2xl p-1 w-10/12 shadow-[0_10px_20px_5px_rgba(10,5,54,0.75)] h-auto mx-auto"
+    src={img6}
+  />
+
       </div>
       <br />
       <br />

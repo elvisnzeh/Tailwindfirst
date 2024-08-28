@@ -13,13 +13,14 @@ function NavBar() {
 
   return (
     <div className="App">
-      <nav className="bg-black p-4 rounded-lg fixed top-0 w-full z-100 flex items-center justify-between">
-        <img src={img} className="w-8 h-8 Logo" alt="Logo" />
+      <nav className="bg-black p-4 rounded-lg fixed top-0 w-full z-20 flex items-center justify-between ">
+        <img src={img} className="w-8 h-8 Logo   md:hidden" />
 
       
 
         
-        <ul className="hidden md:flex space-x-8 mx-auto items-center ">
+        <ul className="hidden md:flex justify-between mx-auto items-center  border border-gray-700 p-1  rounded-lg  w-9/12 justify-center ">
+        <img src={img} className="w-8 h-8 Logo  " />
           <li>
             <Link to="/" className="text-white">Features</Link>
           </li>
@@ -34,6 +35,9 @@ function NavBar() {
           </li>
           <li>
             <Link to="/changelog" className="text-white">Changelog</Link>
+          </li>
+         <li className="text-white rounded p-1 ml-8 ">
+          <Wallet />
           </li>
         </ul>
 
@@ -56,11 +60,11 @@ function NavBar() {
           </li>
         </ul>
 
-        <div className="text-white rounded p-1 ml-8">
+        <div className="text-white rounded p-1 ml-8 md:hidden">
           <Wallet />
         </div>
-          {/* Toggle Button for Mobile */}
-          <div className="md:hidden trigger text-white absolute right-4 top-6 text-2xl block z-200" onClick={toggle}>
+          
+          <div className="md:hidden  text-white absolute right-4 top-6 text-2xl  z-200" onClick={toggle}>
           <MdOutlineLegendToggle />
         </div>
       </nav>
