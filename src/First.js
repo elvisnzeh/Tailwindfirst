@@ -30,9 +30,10 @@ const First = () => {
             <input
               type="text"
               placeholder="Your email"
-              className=" rounded-xl flex w-full  md:rounded-l-xl sm:w-72 h-10 bg-black text-white text-sm mb-4 sm:mb-0 p-2 border border-gray-400 justify-center "
+              className=" rounded-xl w-full mb-2 bg-black h-10 text-sm border border-gray-500 p-1"
+
             />
-            <button className="text-sm rounded-xl flex md:rounded-lg w-11/12 text-center bg-white text-black p-3  font-light md:w-3/12">
+            <button className="bg-white text-black p-1 rounded-lg font-light w-10/12  md:h-11 md:text-sm md:w-1/2 md:mb-2 md:relative right-3 ">
               Join Wallet
             </button>
           </div>
